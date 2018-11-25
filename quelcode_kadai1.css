@@ -195,6 +195,7 @@ p.digital_business_strategy {
 	justify-content:center;
 	flex-wrap: wrap;
 	margin-left:-30px;
+	background: blue;
 
 }
 
@@ -202,5 +203,11 @@ p.digital_business_strategy {
 	list-style: none;
 	margin-bottom: 10px;
 	margin-left: 20px;
+	background: orange;
+}
+
+.caselist li {
+	text-decoration: none;
+	background: orange;
 }
 
