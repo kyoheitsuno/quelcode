@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+
+/* サイトの全体　*/
+.maincolumn {
+	width:100%;
+	height:100%;
+	background-color: pink;
+}
+
+/* ヘッダーのアイコンなど　*/
+.header-1 {
+	width:100%;
+	height:30px;
+	padding-bottom: 50px;
+	background-color: orange;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+/* 画像のCSS　*/
+.n-1 {
+	position: absolute;
+	top:10px;
+	margin-left: 40px;
+	background-color: blue;
+
+}
+
+
+.n-2 {
+	position: absolute;
+	top:0px;
+	right:190px ;
+	background-color: blue;
+
+}
+
+p:hover.n-2 {
+	opacity:0.5;
+}
+
+.n-3 {
+	position: absolute;
+	top:0px;
+	right:120px ;
+	background-color: blue;
+
+}
+
+p:hover.n-3 {
+	opacity:0.5;
+}
+
+
+.n-4 {
+	position: absolute;
+	top:-8px;
+	right:7px ;
+	background-color: blue;
+
+}
+
+/* パンくずリストのブロック　*/
+.header-2 {
+	width:100%;
+	margin-top:130px;
+	margin-bottom: 30px;
+	height:15px;
+	background-color: blue;
+}
+
+.breadcrumbs {
+	padding-left:70px;
+	margin-left:0;
+}
+
+.breadcrumbs li {
+	display:inline; /*横並び*/
+	list-style: none;
+}
+
+.breadcrumbs li:after{
+	content: '>';
+	padding: 0 3px;
+	color: black;
+}
+
+.breadcrumbs li:last-child:after{
+	content: '';
+}
+
+.breadcrumbs li a {
+	text-decoration: none;
+	color: #c0c0c0;
+	font-size: 12px;
+}
+
+.breadcrumbs li a:hover {
+	text-decoration: underline;
+}
+
+p.n-5 img {
+	width:100%;
+}
+
+/* shareボタンのCSS　*/
+
+.share-botton {
+	padding-left:700px;
+	background-color: blue;
+}
+
+
+.sns-share li {
+	display: inline-flex;
+	list-style: none;
+	margin-left: 15px;
+}
+
+
+/* 見出し(h2)のCSS　*/
+
+h2 {
+	font-size: 18px;
+	color: black;
+	vertical-align: top;
+}
+
+h2:before {
+	content: url(./kadai-1/n-10.png) /* 見出しの冒頭に画像　*/
+}
+
+
+a:-webkit-any-link {　/* 下線の打ち消し　*/
+    text-decoration: none;
+}
+
+
+.digital_business_strategy {
+	background: orange;
+	font-size: 12px;
+	padding-left: 240px;
+}
+
+p.digital_business_strategy {
+	margin-bottom: 2px;
+}
+
+.n-11 {
+	text-align: center;
+	background-color: blue;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.n-12 {
+	text-align: center;
+	background-color: blue;
+	max-width: 100%;
+	height: auto;
+}
+
+/* PDFのリンク　*/
+
+.pdf_document {
+	text-align: center;
+	width: 200px;
+    padding: 0.5em 1em;
+    margin: 10px auto;
+    color: #ffff;
+    background: #0000ff;/*背景色*/
+    font-size: 12px;
+}
+.pdf_document p {
+    margin: 0; 
+    padding: 0;
+}
+
+.case {
+	background: orange;
+	font-size: 12px;
+	padding-left: 240px;
+}
+
+
+.caselist_box {
+	width: 1000px;
+	display:flex;
+	flex-direction:row;
+	align-items:flex-start;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin-left:-30px;
+
+}
+
+.caselist　{
+	list-style: none;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
