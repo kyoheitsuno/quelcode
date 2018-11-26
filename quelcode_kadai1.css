@@ -189,17 +189,13 @@ p.digital_business_strategy {
 
 .caselist_box {
 	width: 1000px;
-	display:flex;
-	flex-direction:row;
-	align-items:flex-start;
-	justify-content:center;
-	flex-wrap: wrap;
-	margin-left:-30px;
+	margin:auto;
+	text-align: center;
 	background: blue;
 
 }
 
-.caselist　{
+.caselist ul {
 	list-style: none;
 	margin-bottom: 10px;
 	margin-left: 20px;
@@ -207,7 +203,7 @@ p.digital_business_strategy {
 }
 
 .caselist li {
-	text-decoration: none;
+	display: inline;
 	background: orange;
 }
 
