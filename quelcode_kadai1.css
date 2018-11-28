@@ -226,19 +226,33 @@ p.digital_business_strategy {
     text-decoration: none
 }
 
-/*
-.caselist ul {
-	list-style: none;
-	margin-bottom: 10px;
-	margin-left: 20px;
-	background: orange;
+
+.pagelink {
+	width:100%;
+	margin-top:130px;
+	margin-bottom: 30px;
+	height:15px;
+	background-color: blue;
 }
 
-.caselist li {
-	display: inline;
-	display: f
-	background: orange;
+
+.link-bothends li:before:{
+	content: '<';
+	padding: 0 3px;
+	color: black;
 }
 
-*/
+.link-bothends li:last-child:after{
+	content: '';
+}
+
+.link-bothends li a {
+	text-decoration: none;
+	color: #c0c0c0;
+	font-size: 12px;
+}
+
+.link-bothends li a:hover {
+	text-decoration: underline;
+}
 
