@@ -2,6 +2,7 @@
 
 
 /* サイトの全体　*/
+
 .maincolumn {
 	width:100%;
 	height:100%;
@@ -9,6 +10,7 @@
 }
 
 /* ヘッダーのアイコンなど　*/
+
 .header-1 {
 	width:100%;
 	height:30px;
@@ -21,6 +23,7 @@
 }
 
 /* 画像のCSS　*/
+
 .n-1 {
 	position: absolute;
 	top:10px;
@@ -64,6 +67,7 @@ p:hover.n-3 {
 }
 
 /* パンくずリストのブロック　*/
+
 .header-2 {
 	width:100%;
 	margin-top:130px;
@@ -180,6 +184,8 @@ p.digital_business_strategy {
     padding: 0;
 }
 
+/*　DXの取組み事例　*/
+
 .case {
 	background: orange;
 	padding-left: 190px;
@@ -196,11 +202,15 @@ p.digital_business_strategy {
 
 }
 
+/*　並列させたブロックのCSS　*/
+
 .future {
 	width: 200px;
 	font-size: 13px;
 	background: orange;
 }
+
+/*　ブロックにあるタグ枠線　*/
 
 .tag {
     margin-left: 5px;
@@ -226,33 +236,60 @@ p.digital_business_strategy {
     text-decoration: none
 }
 
+/*　両端リンク　*/
 
 .pagelink {
 	width:100%;
+	height:50px;
 	margin-top:130px;
 	margin-bottom: 30px;
+	padding-left: 100px: 
+	background-color: red;
+}
+
+/*　両端リンクの左側　*/
+
+.pagelink-left {
+	width:200px;
 	height:15px;
 	background-color: red;
 }
 
+/*　両端リンクの左側　*/
 
-.link-bothends li:before:{
+.link-left {
+	text-decoration: none;
+}
+
+
+.link-left:before{
 	content: '<';
 	padding: 0 3px;
 	color: black;
 }
 
-.link-bothends li:last-child:after{
-	content: '';
+
+/*　両端リンクの右側　*/
+
+.pagelink-right {
+	width:200px;
+	height:15px;
+	float: right;
+	background-color: blue;
 }
 
-.link-bothends li a {
+.link-right {
 	text-decoration: none;
-	color: #c0c0c0;
-	font-size: 12px;
 }
 
-.link-bothends li a:hover {
-	text-decoration: underline;
+
+.link-right:before{
+	content: '>';
+	padding: 0 3px;
+	color: black;
 }
+
+
+
+
 
