@@ -255,6 +255,7 @@ p.digital_business_strategy {
 .pagelink-left {
 	width:200px;
 	height:15px;
+	padding-left:195px;
 	background-color: red;
 }
 
@@ -279,6 +280,7 @@ p.digital_business_strategy {
 	width:200px;
 	height:15px;
 	float: right;
+	margin-top: -15px;
 	background-color: blue;
 }
 
