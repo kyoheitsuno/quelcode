@@ -296,7 +296,44 @@ p.digital_business_strategy {
 	color: black;
 }
 
+/*　企業情報の全体ブロック　*/
 
+.enterprise-information {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+/*　一番上の太線　*/
+
+.solid-1 {
+	border-bottom: 2.2px solid;
+	color: black;
+}
+
+.enterprise_i {
+	font-style: bold;
+	font-size: 20px;
+	color: black;
+	padding-bottom: 5px
+}
+
+
+.solid-2 {
+	border-bottom: 1px dotted;
+	color: black;
+	padding-bottom: 5px;
+}
+
+.management-policy {
+	font-size: 14px;
+	color: black;
+}
+
+
+
+
+}
 
 
 
