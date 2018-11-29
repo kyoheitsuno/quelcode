@@ -113,7 +113,7 @@ p.n-5 img {
 /* shareボタンのCSS　*/
 
 .share-botton {
-	padding-left:700px;
+	padding-left:750px;
 	background-color: blue;
 }
 
@@ -253,6 +253,7 @@ p.digital_business_strategy {
 	background-color: red;
 	margin: 0 auto;
 	padding-top: 150px;
+	padding-bottom: 100px;
 }
 
 /*　両端リンクの左側　*/
