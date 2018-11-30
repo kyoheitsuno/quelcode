@@ -391,8 +391,25 @@ p.digital_business_strategy {
 .solid-3 {
 	width: 100%;
 	border-bottom: 2px solid;
-	color: black;
+	color: gray;
 	padding-bottom: 20px;
 }
+
+/*　フッターのシェアボタン　*/
+
+.footer-share-b {
+	text-align: center;
+	background-color: red;
+}
+
+
+.f-share li {
+	display: inline-flex;
+	list-style: none;
+	font-style: bold;
+	font-size: 22px;
+	margin-left: 15px;
+}
+
 
 
