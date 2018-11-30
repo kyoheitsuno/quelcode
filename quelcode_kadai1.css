@@ -368,5 +368,31 @@ p.digital_business_strategy {
 }
 
 
+/*　前のページに戻る　*/
+
+.return {
+	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	color:#3366FF;
+}
+
+
+
+.return:before {
+	content: '<';
+	padding: 0 3px;
+	color: #c0c0c0;
+}
+
+
+/*　太線　*/
+
+.solid-3 {
+	width: 100%;
+	border-bottom: 2px solid;
+	color: black;
+	padding-bottom: 20px;
+}
 
 
