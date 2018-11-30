@@ -6,7 +6,7 @@
 .maincolumn {
 	width:100%;
 	height:100%;
-	background-color: pink;
+	/* background-color: pink; */
 }
 
 /* ヘッダーのアイコンなど　*/
@@ -15,7 +15,7 @@
 	width:100%;
 	height:30px;
 	padding-bottom: 50px;
-	background-color: orange;
+	/* background-color: orange; */
 	position:fixed;
 	top: 0;
 	left: 0;
@@ -28,7 +28,7 @@
 	position: absolute;
 	top:10px;
 	margin-left: 40px;
-	background-color: blue;
+	/* background-color: blue; */
 
 }
 
@@ -37,7 +37,7 @@
 	position: absolute;
 	top:0px;
 	right:190px ;
-	background-color: blue;
+	/* background-color: blue; */
 
 }
 
@@ -49,7 +49,7 @@ p:hover.n-2 {
 	position: absolute;
 	top:0px;
 	right:120px ;
-	background-color: blue;
+	/* background-color: blue; */
 
 }
 
@@ -62,7 +62,7 @@ p:hover.n-3 {
 	position: absolute;
 	top:-8px;
 	right:7px ;
-	background-color: blue;
+	/* background-color: blue; */
 
 }
 
@@ -73,7 +73,7 @@ p:hover.n-3 {
 	margin-top:130px;
 	margin-bottom: 30px;
 	height:15px;
-	background-color: blue;
+	/* background-color: blue; */
 }
 
 .breadcrumbs {
@@ -114,7 +114,7 @@ p.n-5 img {
 
 .share-botton {
 	padding-left:750px;
-	background-color: blue;
+	/* background-color: blue; */
 }
 
 
@@ -147,7 +147,7 @@ a:-webkit-any-link {
 
 
 .digital_business_strategy {
-	background: orange;
+	/* background: orange; */
 	font-size: 12px;
 	padding-left: 240px;
 }
@@ -166,7 +166,7 @@ p.digital_business_strategy {
 
 .n-12 {
 	text-align: center;
-	background-color: blue;
+	/* background-color: blue; */
 	max-width: 100%;
 	height: auto;
 }
@@ -179,7 +179,7 @@ p.digital_business_strategy {
     padding: 0.5em 1em;
     margin: 10px auto;
     color: #ffff;
-    background: #0000ff;/*背景色*/
+    /* background: #0000ff; */
     font-size: 12px;
 }
 
@@ -192,7 +192,7 @@ p.digital_business_strategy {
 /*　DXの取組み事例　*/
 
 .case {
-	background: orange;
+	/* background: orange; */
 	padding-left: 190px;
 }
 
@@ -203,7 +203,7 @@ p.digital_business_strategy {
 	padding-left: 100px;
 	display: flex;
 	flex-wrap: wrap;
-	background: blue;
+	/* background: blue; */
 
 }
 
@@ -212,7 +212,7 @@ p.digital_business_strategy {
 .future {
 	width: 200px;
 	font-size: 13px;
-	background: orange;
+	/* background: orange; */
 }
 
 /*　ブロックにあるタグ枠線　*/
@@ -226,7 +226,7 @@ p.digital_business_strategy {
     text-align: center;
     float: left;
  	text-decoration: none;
-    background: #FFF;
+    /* background: #FFF; */
     border: solid 1px #c0c0c0;
     border-radius: 10px;
 }
@@ -344,7 +344,7 @@ p.digital_business_strategy {
 	padding-right: 100px;
 	display: flex;
 	flex-wrap: wrap;
-	background: blue;
+	/* background: blue; */
 }
 
 
@@ -355,7 +355,7 @@ p.digital_business_strategy {
 	color:#3366FF;
 	padding-right: 220px;
 	padding-bottom: 20px;
-	background: red;
+	/* background: red; */
 	white-space: nowrap;
 }
 
@@ -399,7 +399,7 @@ p.digital_business_strategy {
 
 .footer-share-b {
 	text-align: center;
-	background-color: red;
+	/* background-color: red; */
 }
 
 
