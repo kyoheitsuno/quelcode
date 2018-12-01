@@ -344,7 +344,7 @@ p.digital_business_strategy {
 	color: black;
 }
 
-/*　画像付きのリンク集　*/
+/*　画像リンク集　*/
 
 .mp-block {
 	width: 1050px;
@@ -424,6 +424,29 @@ p.digital_business_strategy {
 	margin-left: 15px;
 }
 
-/*　フッターのシェアボタン　*/
+/*　フッターのリンク集 (IRなど)　*/
+
+.footer-links {
+	width: 1000px;
+	margin:auto;
+	padding-right: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	background: blue;
+}
+
+
+/*　フッターリンクのブロック　*/
+
+
+.footer-l-block {
+
+
+
+}
+
+
+
+
 
 
