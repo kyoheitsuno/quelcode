@@ -148,6 +148,7 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+/* NRIのデジタルビジネス戦略のブロックCSS　*/
 
 .digital_business_strategy {
 	width: 900px;
@@ -160,6 +161,8 @@ p.digital_business_strategy {
 	margin-bottom: 2px;
 }
 
+
+/* Pタグの文章　*/
 
 .font-style {
 	font-size: 14px;
@@ -179,7 +182,7 @@ p.digital_business_strategy {
 	height: auto;
 }
 
-/* PDFのリンク　*/
+/* (PDFのリンク)デジタルが拓く近未来　*/
 
 .pdf_document {
 	text-align: center;
@@ -197,7 +200,7 @@ p.digital_business_strategy {
     padding: 0;
 }
 
-/*　DXの取組み事例　*/
+/*　(タイトル)DXの取組み事例　*/
 
 .case {
 	width: 900px;
@@ -215,7 +218,7 @@ p.digital_business_strategy {
 
 }
 
-/*　並列させたブロックのCSS　*/
+/*　並列させたサムネイル入り記事ブロックのCSS　*/
 
 .future {
 	width: 200px;
@@ -244,6 +247,7 @@ p.digital_business_strategy {
     padding: 0;
 }
 
+/*　記事の日付表記　*/
 
 .day {
 	font-size: 12px;
@@ -253,7 +257,7 @@ p.digital_business_strategy {
 }
 
 
-/*　両端リンク　*/
+/*　両端の文字リンク　*/
 
 .pagelink {
 	width:800px;
@@ -344,7 +348,7 @@ p.digital_business_strategy {
 	padding: 20px 0px 20px 0px;
 }
 
-/*　画像リンク集　*/
+/*　 企業情報の文字リンク　*/
 
 .mp-block {
 	width: 1050px;
@@ -433,18 +437,19 @@ p.digital_business_strategy {
 }
 
 
-/*　フッターリンクのブロック　*/
+/*　フッターリンク集のブロック　*/
 
 
 .footer-l-block {
 	width:25%;
-	margin: auto;
+	padding-bottom: 10px;
 }
 
 
-/*　フッターリンクのタイトル部分　*/
+/*　フッターリンク集のタイトル部分　*/
 
 .footer-title {
+	width:230px;
 	border-top: solid 1px #c0c0c0;
 	border-bottom: solid 1px #c0c0c0;
 	font-weight: 600;
@@ -461,12 +466,12 @@ p.digital_business_strategy {
 	color: #c0c0c0;
 }
 
+/*　フッターリンク集のリストCSS　*/
 
 .footer-li {
 	list-style: none;
 	font-size: 12px;
 	color:#c0c0c0;
-
 }
 
 
@@ -484,22 +489,37 @@ p.digital_business_strategy {
 
 }
 
-.footer-li li {
-	list-style: none;
+/*　フッターのナビリンク　*/
+
+.bottom-footer-navi {
+	width:1000px;
+	margin:auto;
+	padding: 40px 10px 10px 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*　フッターのナビリンク リストのCSS*/
+
+.b-footer-navi li{
+	display: inline;
+	list-style:none;
 	font-size: 12px;
-	color:#c0c0c0;
-	padding-bottom: 10px;
-}
-
-
-.footer-li li:before {
-	content: '>';
-	padding: 0 10px;
 	color: #c0c0c0;
-
+	padding: 20px 0px 20px 0px;
+	white-space: nowrap;
 }
 
 
+.b-footer-navi li:after {
+	content: '|';
+	font-size: 12px;
+	padding: 0px 5px 0px 10px;
+	color: #c0c0c0;
+}
 
+.b-footer-navi li:last-child:after{
+	content: "";
+}
 
 
