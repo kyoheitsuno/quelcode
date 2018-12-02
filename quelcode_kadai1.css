@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/* CSSの初期値をリセット */
+
+/*
+* {
+	padding: 0;
+	margin: 0;
+}
+*/
+
 
 /* サイトの全体　*/
 
@@ -433,7 +442,6 @@ p.digital_business_strategy {
 	padding-right: 50px;
 	display: flex;
 	flex-wrap: wrap;
-	background: blue;
 }
 
 
@@ -444,7 +452,6 @@ p.digital_business_strategy {
 	width:25%;
 	margin: auto;
 }
-<<<<<<< HEAD
 
 
 /*　フッターリンクのタイトル部分　*/
@@ -472,6 +479,7 @@ p.digital_business_strategy {
 	color:#c0c0c0;
 }
 
+
 .footer-li li {
 	list-style: none;
 	font-size: 12px;
@@ -483,51 +491,9 @@ p.digital_business_strategy {
 .footer-li li:before {
 	content: '>';
 	padding: 0 10px;
-=======
-
-.footer-title {
-	border-top: solid 1px #c0c0c0;
-	border-bottom: solid 1px #c0c0c0;
-	font-size: 20px;
-	font-style:bold;
-	color:black;
 }
 
 
-.footer-li {
-	list-style: none;
-	font-size: 12px;
-	color:#c0c0c0;
-	text-align: left;
-}
-
-
-.footer-li:before {
-	content: '>';
-	padding: 0 3px;
->>>>>>> master
-	color: #c0c0c0;
-}
-
-
-
-/* ul liの余白初期設定を消去 */
-
-ul, menu, dir {
-    
-    padding-inline-start: 0px;
-}
-
-ß
-
-/* CSSの初期値をリセット */
-
-/*
-* {
-	padding: 0;
-	margin: 0;
-}
-*/
 
 
 
