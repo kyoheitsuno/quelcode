@@ -15,7 +15,7 @@
 .maincolumn {
 	width:100%;
 	height:100%;
-	/* background-color: pink; */
+
 }
 
 /* ヘッダーのアイコンなど　*/
@@ -24,7 +24,6 @@
 	width:100%;
 	height:30px;
 	padding-bottom: 50px;
-	/* background-color: orange; */
 	position:fixed;
 	top: 0;
 	left: 0;
@@ -37,7 +36,6 @@
 	position: absolute;
 	top:10px;
 	margin-left: 40px;
-	/* background-color: blue; */
 
 }
 
@@ -46,7 +44,6 @@
 	position: absolute;
 	top:0px;
 	right:190px ;
-	/* background-color: blue; */
 
 }
 
@@ -58,7 +55,6 @@ p:hover.n-2 {
 	position: absolute;
 	top:0px;
 	right:120px ;
-	/* background-color: blue; */
 
 }
 
@@ -71,7 +67,6 @@ p:hover.n-3 {
 	position: absolute;
 	top:-8px;
 	right:7px ;
-	/* background-color: blue; */
 
 }
 
@@ -82,7 +77,6 @@ p:hover.n-3 {
 	margin-top:130px;
 	margin-bottom: 30px;
 	height:15px;
-	/* background-color: blue; */
 }
 
 .breadcrumbs {
@@ -122,8 +116,7 @@ p.n-5 img {
 /* shareボタンのCSS　*/
 
 .share-botton {
-	padding-left:750px;
-	/* background-color: blue; */
+	padding: 20px 0px 20px 850px;
 }
 
 
@@ -139,6 +132,7 @@ p.n-5 img {
 h2 {
 	font-size: 18px;
 	color: black;
+	padding: 20px 0px 20px 0px;
 	vertical-align: top;
 }
 
@@ -155,18 +149,17 @@ a:-webkit-any-link {
 }
 
 
-/* 下線を削除　*/
-
-
 .digital_business_strategy {
-	/* background: orange; */
-	font-size: 12px;
-	padding-left: 240px;
+	width: 900px;
+    margin: auto;
+    font-size: 12px;
+    padding: 10px 0px 10px 100px;
 }
 
 p.digital_business_strategy {
 	margin-bottom: 2px;
 }
+
 
 .font-style {
 	font-size: 14px;
@@ -175,7 +168,6 @@ p.digital_business_strategy {
 
 .n-11 {
 	text-align: center;
-	/* background-color: blue; */
 	max-width: 100%;
 	height: auto;
 }
@@ -183,7 +175,6 @@ p.digital_business_strategy {
 
 .n-12 {
 	text-align: center;
-	/* background-color: blue; */
 	max-width: 100%;
 	height: auto;
 }
@@ -209,8 +200,9 @@ p.digital_business_strategy {
 /*　DXの取組み事例　*/
 
 .case {
-	/* background: orange; */
-	padding-left: 190px;
+	width: 900px;
+    margin: auto;
+    padding: 20px 0px 20px 100px;
 }
 
 
@@ -220,7 +212,6 @@ p.digital_business_strategy {
 	padding-left: 100px;
 	display: flex;
 	flex-wrap: wrap;
-	/* background: blue; */
 
 }
 
@@ -229,13 +220,13 @@ p.digital_business_strategy {
 .future {
 	width: 200px;
 	font-size: 13px;
-	/* background: orange; */
+	padding-bottom: 40px;
 }
 
 /*　ブロックにあるタグ枠線　*/
 
 .tag {
-    margin: 3px 3px;
+    margin: 5px 4px 2px 2px;
     width: auto;
     padding: 1px 5px;
     height: 25px;
@@ -243,7 +234,6 @@ p.digital_business_strategy {
     text-align: center;
     float: left;
  	text-decoration: none;
-    /* background: #FFF; */
     border: solid 1px #c0c0c0;
     border-radius: 10px;
 }
@@ -257,7 +247,7 @@ p.digital_business_strategy {
 
 .day {
 	font-size: 12px;
-    padding-top: 40px;
+    padding-top: 45px;
     color: #c0c0c0;
     text-decoration: none
 }
@@ -267,10 +257,8 @@ p.digital_business_strategy {
 
 .pagelink {
 	width:800px;
-	/* background-color: red; */
 	margin: 0 auto;
-	padding-top: 150px;
-	padding-bottom: 100px;
+	padding: 150px 0px 100px 0px;
 }
 
 /*　両端リンクの左側　*/
@@ -282,6 +270,7 @@ p.digital_business_strategy {
 
 .link-left a {
 	text-decoration: none;
+	font-size: 15px;
 	color:#3366FF;
 }
 
@@ -303,6 +292,7 @@ p.digital_business_strategy {
 
 .link-right a {
 	text-decoration: none;
+	font-size: 15px;
 	color:#3366FF;
 }
 
@@ -331,10 +321,10 @@ p.digital_business_strategy {
 /*　企業情報の見出し　*/
 
 .enterprise_i {
-	font-style: bold;
 	font-size: 20px;
+	font-weight: 700;
 	color: black;
-	padding-bottom: 5px
+	padding: 15px 0px 15px 0px;
 }
 
 /*　破線　*/
@@ -342,7 +332,6 @@ p.digital_business_strategy {
 .solid-2 {
 	border-bottom: 1px dotted;
 	color: black;
-	padding-bottom: 5px;
 }
 
 /*　h3風の見出し　*/
@@ -350,7 +339,9 @@ p.digital_business_strategy {
 
 .management-policy {
 	font-size: 14px;
+	font-weight: 700;
 	color: black;
+	padding: 20px 0px 20px 0px;
 }
 
 /*　画像リンク集　*/
@@ -361,7 +352,6 @@ p.digital_business_strategy {
 	padding-right: 100px;
 	display: flex;
 	flex-wrap: wrap;
-	/* background: blue; */
 }
 
 
@@ -372,7 +362,6 @@ p.digital_business_strategy {
 	color:#3366FF;
 	padding-right: 220px;
 	padding-bottom: 20px;
-	/* background: red; */
 	white-space: nowrap;
 }
 
@@ -394,9 +383,8 @@ p.digital_business_strategy {
 /*　前のページに戻る　*/
 
 .return {
-	font-size: 16px;
-	padding-top: 40px;
-	padding-bottom: 60px;
+	font-size: 14px;
+	padding: 40px 0px 60px 0px;
 	color:#3366FF;
 }
 
@@ -404,7 +392,7 @@ p.digital_business_strategy {
 
 .return:before {
 	content: '<';
-	padding: 0 3px;
+	padding: 0px 10px 0px 5px;
 	color: #c0c0c0;
 }
 
@@ -415,14 +403,14 @@ p.digital_business_strategy {
 	width: 100%;
 	border-bottom: 2px solid;
 	color: gray;
-	padding-bottom: 20px;
 }
 
 /*　フッターのシェアボタン　*/
 
 .footer-share-b {
+	font-weight: 700;
+    padding: 20px 0px 20px 0px;
 	text-align: center;
-	/* background-color: red; */
 }
 
 
@@ -430,8 +418,8 @@ p.digital_business_strategy {
 	display: inline-flex;
 	list-style: none;
 	font-style: bold;
-	font-size: 22px;
-	margin-left: 15px;
+	font-size: 18px;
+	margin-left: 20px;
 }
 
 /*　フッターのリンク集 (IRなど)　*/
@@ -439,7 +427,7 @@ p.digital_business_strategy {
 .footer-links {
 	width: 1000px;
 	margin:auto;
-	padding-right: 50px;
+	padding: 40px 10px 10px 0px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -459,15 +447,16 @@ p.digital_business_strategy {
 .footer-title {
 	border-top: solid 1px #c0c0c0;
 	border-bottom: solid 1px #c0c0c0;
-	font-size: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color:black;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 0px 10px 0px;
+	color: rgba(0,0,0,0.7);
 }
 
 
 .footer-title:before {
 	content: '>';
+	font-size: 12px;
 	padding: 0 10px;
 	color: #c0c0c0;
 }
@@ -477,7 +466,7 @@ p.digital_business_strategy {
 	list-style: none;
 	font-size: 12px;
 	color:#c0c0c0;
-<<<<<<< HEAD
+
 }
 
 
@@ -485,14 +474,14 @@ p.digital_business_strategy {
 	list-style: none;
 	font-size: 12px;
 	color:#c0c0c0;
-	padding-bottom: 10px;
+	padding: 10px 0px 5px 0px;
 }
 
 
 .footer-li li:before {
 	content: '>';
 	padding: 0 10px;
-=======
+
 }
 
 .footer-li li {
@@ -507,20 +496,8 @@ p.digital_business_strategy {
 	content: '>';
 	padding: 0 10px;
 	color: #c0c0c0;
->>>>>>> master
+
 }
-
-
-
-/* ul liの余白初期設定を消去 */
-
-/*
-ul, menu, dir {
-    
-    padding-inline-start: 0px;
-}
-*/
-
 
 
 
