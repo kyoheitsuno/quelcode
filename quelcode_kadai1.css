@@ -2,12 +2,12 @@
 
 /* CSSの初期値をリセット */
 
-/*
+
 * {
 	padding: 0;
 	margin: 0;
 }
-*/
+
 
 
 /* サイトの全体　*/
@@ -514,23 +514,14 @@ p.digital_business_strategy {
 
 /* ul liの余白初期設定を消去 */
 
-
+/*
 ul, menu, dir {
     
     padding-inline-start: 0px;
 }
-
-
-
-
-/* CSSの初期値をリセット */
-
-/*
-* {
-	padding: 0;
-	margin: 0;
-}
 */
+
+
 
 
 
