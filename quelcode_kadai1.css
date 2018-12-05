@@ -12,7 +12,7 @@
 
 /* サイトの全体　*/
 
-.maincolumn {
+#maincolumn {
 	width:100%;
 	height:100%;
 
@@ -22,12 +22,13 @@
 
 .header-1 {
 	width:100%;
-	height:30px;
+	height:20px;
 	padding-bottom: 50px;
 	position:fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+	background: white;
 }
 
 /* 画像のCSS　*/
@@ -74,8 +75,7 @@ p:hover.n-3 {
 
 .header-2 {
 	width:100%;
-	margin-top:130px;
-	margin-bottom: 30px;
+	margin:130px 0px 30px 0px;
 	height:15px;
 }
 
@@ -523,9 +523,11 @@ p.digital_business_strategy {
 }
 
 .copyright {
+	width: 1010px;
+	margin:auto;
 	font-size: 8px;
 	color:black;
-	padding: 10px 20px;
+	padding: 10px 0px 30px 0px;
 }
 
 
