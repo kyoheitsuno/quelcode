@@ -40,12 +40,18 @@
 
 }
 
-
 .n-2 {
 	position: absolute;
 	top:0px;
 	right:190px ;
 
+}
+
+@media screen and (max-width: 768px) {
+.n-2 {
+	width: 50%;
+	height: 50%;
+	}
 }
 
 p:hover.n-2 {
