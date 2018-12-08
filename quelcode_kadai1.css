@@ -37,7 +37,6 @@
 	position: absolute;
 	top:10px;
 	margin-left: 40px;
-
 }
 
 .n-2 {
@@ -47,12 +46,6 @@
 
 }
 
-@media screen and (max-width: 768px) {
-.n-2 {
-	width: 50%;
-	height: 50%;
-	}
-}
 
 p:hover.n-2 {
 	opacity:0.5;
@@ -64,6 +57,7 @@ p:hover.n-2 {
 	right:120px ;
 
 }
+
 
 p:hover.n-3 {
 	opacity:0.5;
