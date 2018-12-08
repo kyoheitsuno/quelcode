@@ -32,11 +32,19 @@
 
 /* 画像のCSS　*/
 
+/*
 .n-1 {
 	position: absolute;
 	top:10px;
 	margin-left: 40px;
 }
+*/
+
+
+.n-1 {
+	margin: 15px 0px 0px 50px;
+}
+
 
 .n-2 {
 	position: absolute;
@@ -78,9 +86,18 @@ p:hover.n-3 {
 	height:15px;
 }
 
+/*
+.breadcrumbs-list {
+	width: 1000px;
+	margin: 0 auto;
+	height:15px;
+}
+*/
+
 .breadcrumbs {
-	padding-left:70px;
-	margin-left:0;
+	width: 1000px;
+	margin: 0 auto;
+	height:15px;
 }
 
 .breadcrumbs li {
