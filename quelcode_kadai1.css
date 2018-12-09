@@ -20,7 +20,7 @@
 /* ヘッダーのアイコンなど　*/
 
 .header-1 {
-	width:100%;
+	width:150px;
 	height:20px;
 	padding-bottom: 50px;
 	position:fixed;
@@ -45,24 +45,49 @@
 	margin: 15px 0px 0px 50px;
 }
 
+.header-icon {
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+}
 
+.header-icon li {
+	display: inline;
+	list-style:none;
+	vertical-align: baseline;
+}
+
+
+.n-2 {
+    float: left;
+    margin: -40px 0px 0px 83%;
+}
+
+
+/*
 .n-2 {
 	position: absolute;
 	top:0px;
 	right:190px ;
-
 }
+*/
 
 
 p:hover.n-2 {
 	opacity:0.5;
 }
 
+/*
 .n-3 {
 	position: absolute;
 	top:0px;
 	right:120px ;
+}
+*/
 
+.n-3 {
+    float: left;
+    margin: -40px 0px 0px 88%;
 }
 
 
