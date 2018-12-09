@@ -22,7 +22,6 @@
 .header-1 {
 	width:100%;
 	height:70px;
-	padding-bottom: 50px;
 	position:fixed;
 	top: 0;
 	left: 0;
@@ -40,14 +39,9 @@
 }
 */
 
-
-.n-1 {
-	margin: 15px 0px 0px 50px;
-}
-
 .header-icon {
-	float: right;
-    margin: -50px 2% 0px 0px;
+	display: flex;
+	align-items:center;
 }
 
 .header-icon li {
@@ -57,9 +51,17 @@
 }
 
 
+.n-1 {
+	position: fixed;
+	top:12px;
+	left:5%;
+}
+
+
 .n-2 {
-    float: left;
-    margin: -40px 0px 0px 83%;
+	position: fixed;
+	top:12px;
+	left:83%;
 }
 
 
@@ -85,8 +87,9 @@ p:hover.n-2 {
 */
 
 .n-3 {
-    float: left;
-    margin: -40px 0px 0px 88%;
+	position: fixed;
+	top:11px;
+	left:89%;
 }
 
 
@@ -96,10 +99,8 @@ p:hover.n-3 {
 
 
 .n-4 {
-	position: absolute;
-	top:-8px;
-	right:7px ;
-
+	position: fixed;
+	left:95%;
 }
 
 /* パンくずリストのブロック　*/
@@ -156,7 +157,7 @@ p.n-5 img {
 /* shareボタンのCSS　*/
 
 .share-botton {
-	padding: 20px 0px 20px 850px;
+	padding: 20px 0px 20px 75%;
 }
 
 
