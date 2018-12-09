@@ -17,7 +17,7 @@
 	height:100%;
 }
 
-/* ヘッダーのアイコンなど　*/
+/* ヘッダーのブロックCSS　*/
 
 .header-1 {
 	width:100%;
@@ -29,15 +29,7 @@
 	background: white;
 }
 
-/* 画像のCSS　*/
-
-/*
-.n-1 {
-	position: absolute;
-	top:10px;
-	margin-left: 40px;
-}
-*/
+/* ヘッダーアイコンのCSS　*/
 
 .header-icon {
 	display: flex;
@@ -50,6 +42,7 @@
 	vertical-align: baseline;
 }
 
+/* 野村総研のロゴ　*/
 
 .n-1 {
 	position: fixed;
@@ -57,6 +50,7 @@
 	left:5%;
 }
 
+/* 検索の虫眼鏡リンク　*/
 
 .n-2 {
 	position: fixed;
@@ -64,27 +58,11 @@
 	left:83%;
 }
 
-
-/*
-.n-2 {
-	position: absolute;
-	top:0px;
-	right:190px ;
-}
-*/
-
-
-p:hover.n-2 {
+.n-2:hover {
 	opacity:0.5;
 }
 
-/*
-.n-3 {
-	position: absolute;
-	top:0px;
-	right:120px ;
-}
-*/
+/* 地球儀のリンク　*/
 
 .n-3 {
 	position: fixed;
@@ -93,10 +71,11 @@ p:hover.n-2 {
 }
 
 
-p:hover.n-3 {
+.n-3:hover {
 	opacity:0.5;
 }
 
+/* ナビメニューアイコン　*/
 
 .n-4 {
 	position: fixed;
@@ -205,9 +184,18 @@ p.digital_business_strategy {
 
 /* Pタグの文章　*/
 
-.font-style {
+.font-style-1 {
 	font-size: 14px;
 	color:black;
+}
+
+.font-style-1 a {
+	text-decoration: none;
+	color:black;
+}
+
+.font-style-1 a:hover {
+	text-decoration: underline;
 }
 
 .n-11 {
@@ -235,6 +223,14 @@ p.digital_business_strategy {
     font-size: 12px;
 }
 
+.pdf_document:hover {
+	opacity:0.8;
+}
+
+.pdf_document a {
+	text-decoration: none;
+	color:white;
+}
 
 .pdf_document p {
     margin: 0; 
@@ -285,6 +281,11 @@ p.digital_business_strategy {
 
 .tag a {
 	color:#333;
+	text-decoration: none;
+}
+
+.tag a:hover {
+	text-decoration: underline;
 }
 
 .tag p {
@@ -323,6 +324,10 @@ p.digital_business_strategy {
 	color:#0c419a;
 }
 
+.link-left a:hover {
+	text-decoration: underline;
+}
+
 
 .link-left:before {
 	content: '<';
@@ -343,6 +348,10 @@ p.digital_business_strategy {
 	text-decoration: none;
 	font-size: 15px;
 	color:#0c419a;
+}
+
+.link-right a:hover {
+	text-decoration: underline;
 }
 
 
@@ -416,6 +425,11 @@ p.digital_business_strategy {
 
 .mp-links a {
 	color:#0c419a;
+	text-decoration: none;
+}
+
+.mp-links a:hover {
+	text-decoration: underline;
 }
 
 
@@ -441,6 +455,13 @@ p.digital_business_strategy {
 	color:#0c419a;
 }
 
+.return a {
+	text-decoration: none;
+}
+
+.return a:hover {
+	text-decoration: underline;
+}
 
 
 .return:before {
@@ -510,8 +531,13 @@ p.digital_business_strategy {
 
 .footer-title a {
 	color:#666;
+	text-decoration: none;
 }
 
+.footer-title a:hover {
+
+	text-decoration: underline;
+}
 
 
 .footer-title:before {
@@ -541,6 +567,11 @@ p.digital_business_strategy {
 
 .footer-li a {
 	color:#666;
+	text-decoration: none;
+}
+
+.footer-li a:hover {
+	text-decoration: underline;
 }
 
 
@@ -573,8 +604,12 @@ p.digital_business_strategy {
 
 .b-footer-navi a {
 	color:#999;
-	}
+	text-decoration: none;
+}
 
+.b-footer-navi a:hover {
+	text-decoration: underline;
+}
 
 .b-footer-navi li:after {
 	content: '|';
