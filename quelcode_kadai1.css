@@ -20,8 +20,8 @@
 /* ヘッダーのアイコンなど　*/
 
 .header-1 {
-	width:150px;
-	height:20px;
+	width:100%;
+	height:70px;
 	padding-bottom: 50px;
 	position:fixed;
 	top: 0;
@@ -46,9 +46,8 @@
 }
 
 .header-icon {
-	display: flex;
-	flex-wrap: wrap;
-	float: left;
+	float: right;
+    margin: -50px 2% 0px 0px;
 }
 
 .header-icon li {
