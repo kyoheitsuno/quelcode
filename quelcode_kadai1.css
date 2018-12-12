@@ -90,14 +90,6 @@
 	height:15px;
 }
 
-/*
-.breadcrumbs-list {
-	width: 1000px;
-	margin: 0 auto;
-	height:15px;
-}
-*/
-
 .breadcrumbs {
 	width: 1000px;
 	margin: 0 auto;
@@ -183,21 +175,20 @@ p.digital_business_strategy {
 }
 
 
-/* Pタグの文章　*/
+/* NRIのデジタルビジネス戦略 Pタグの文章　*/
 
-.font-style-1 {
-	font-size: 14px;
-	color:black;
+.font-style-main {
+	font-size: 16px;
+	padding: 10px 0px 60px 0px;
+	color:#333333;
 }
 
-.font-style-1 a {
+
+.font-style-main a {
 	text-decoration: none;
-	color:black;
 }
 
-.font-style-1 a:hover {
-	text-decoration: underline;
-}
+/* 中央の画像(上)　*/
 
 .n-11 {
 	text-align: center;
@@ -205,6 +196,7 @@ p.digital_business_strategy {
 	height: auto;
 }
 
+/* 中央の画像(下)　*/
 
 .n-12 {
 	text-align: center;
@@ -260,8 +252,18 @@ p.digital_business_strategy {
 
 .future {
 	width: 200px;
-	font-size: 13px;
 	padding-bottom: 40px;
+}
+
+
+.font-style-l a {
+	font-size: 13px;
+	text-decoration: none;
+	color:#333333;
+}
+
+.font-style-l a:hover {
+	text-decoration: underline;
 }
 
 /*　ブロックにあるタグ枠線　*/
@@ -453,11 +455,11 @@ p.digital_business_strategy {
 .return {
 	font-size: 14px;
 	padding: 40px 0px 60px 0px;
-	color:#0c419a;
 }
 
 .return a {
 	text-decoration: none;
+	color:#0c419a;
 }
 
 .return a:hover {
