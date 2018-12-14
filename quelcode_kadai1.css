@@ -132,6 +132,10 @@ p.n-5 img {
 	padding: 20px 200px 20px 0px;
 }
 
+.sns-share {
+	align-items: center;
+}
+
 
 .sns-share li {
 	display: inline-flex;
@@ -143,12 +147,11 @@ p.n-5 img {
 /* 見出し(h2)のCSS　*/
 
 h2 {
-	font-size: 18px;
+	font-size: 22px;
 	color: black;
 	padding: 20px 0px 20px 0px;
-	vertical-align: top;
+	vertical-align: baseline;
 }
-
 
 h2:before {
 	content: url(./kadai-1/n-10.png) /* 見出しの冒頭に画像　*/
@@ -337,7 +340,7 @@ p.digital_business_strategy {
 .link-left:before {
 	content: '<';
 	padding: 0 3px;
-	color: black;
+	color: #333333;
 }
 
 
@@ -363,7 +366,7 @@ p.digital_business_strategy {
 .link-right:after {
 	content: '>';
 	padding: 0 3px;
-	color: black;
+	color: #333333;
 }
 
 /*　企業情報の全体ブロック　*/
@@ -374,13 +377,6 @@ p.digital_business_strategy {
 	padding-top: 150px;
 }
 
-/*　一番上の太線　*/
-
-.solid-1 {
-	border-bottom: 2.2px solid;
-	color: black;
-}
-
 /*　企業情報の見出し　*/
 
 .enterprise_i {
@@ -389,13 +385,6 @@ p.digital_business_strategy {
 	color: #333333;
 	padding: 25px 0px;
 	border-top: 2.2px solid;
-}
-
-/*　破線　*/
-
-.solid-2 {
-	border-bottom: 1px dotted;
-	color: black;
 }
 
 /*　h3風の見出し　*/
