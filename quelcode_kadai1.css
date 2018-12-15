@@ -125,22 +125,28 @@ p.n-5 img {
 	width:100%;
 }
 
+
+
 /* shareボタンのCSS　*/
 
 .share-botton {
-	text-align:right;
-	padding: 20px 200px 20px 0px;
+	padding: 20px 180px;
+	border-collapse: separate;
+	border-spacing: 20px 0;
+	float: right;
 }
 
+
 .sns-share {
-	align-items: center;
+	display: table;
 }
 
 
 .sns-share li {
-	display: inline-flex;
 	list-style: none;
-	margin-left: 15px;
+	display:table-cell;
+	vertical-align: middle;
+	table-layout: fixed;
 }
 
 
@@ -151,6 +157,7 @@ h2 {
 	color: black;
 	padding: 20px 0px 20px 0px;
 	vertical-align: baseline;
+	clear:both;
 }
 
 h2:before {
